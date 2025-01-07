@@ -3,9 +3,9 @@ const PetList = (props) => {
   console.log(props);
 
   return (
-    <div>
+    <div className="sidebar-container">
       <h1>Pet List</h1>
-      <div>
+      <div className="list-container">
         {!props.pets.length ? (
           <h2>No Pets Yet!</h2>
         ) : (
